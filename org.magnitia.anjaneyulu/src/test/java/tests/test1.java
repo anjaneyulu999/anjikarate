@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -13,6 +14,7 @@ public class test1 {
 		WebDriverManager.firefoxdriver().setup();
 		RemoteWebDriver driver=new FirefoxDriver();
         Thread.sleep(5000);
+        //comment
         driver.get("http://www.google.co.in");
         }
 
